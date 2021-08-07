@@ -14,7 +14,6 @@ img{
     transform: translate(-50%, -100%);
     background-color: #ffffff00;
     font-size: 16px;
-    border: none;
     cursor: pointer;
     text-align: center;
     -webkit-appearance: button;
@@ -31,4 +30,28 @@ img{
     text-align: right;
     font-size: 30px;
     transform: translate(0%, -150%);
+}
+.widget{
+    border:2px solid red;
+    border-radius: 50%;
+    position: relative;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    transform: translate(-275%, -616%);
+    top: -500%; 
+    left: 50%; 
+    padding: 1.7% 1.7%;
+}
+.homescreenbutton{
+    border:2px solid red;
+    border-radius: 50%;
+    position: relative;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    transform: translate(-93%, -1193%);
+    top: -500%; 
+    left: 50%; 
+    padding: 1.7% 1.7%;
 }
